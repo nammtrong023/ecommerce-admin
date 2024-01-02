@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ecommerce: Next.js 14, React, TanStack Query, Tailwind
 
-## Getting Started
+[Demo link](...)
 
-First, run the development1 server:
+## Backend Source
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+The backend source code for this project, you can found in the [backend repository](https://github.com/nammtrong023/ecommerce-be.git).
+
+The store source code for this project, you can found in the [ecommrce-store repository](https://github.com/nammtrong023/ecommerce-store.git).
+
+### Features
+
+-   Interacts seamlessly with the backend authentication
+-   Create, update and delete products!
+-   Create, update and delete categories!
+-   Create, update and delete filters such as "Color" and "Size"
+-   Upload multiple images for products, choose multiple sizes and colors when creating
+-   Filter array of products by utilizing dynamic filters based on various product options.
+-   Using Tanstack Query to handle API requests
+-   You will be able to see your information, orders
+-   Order creation, Stripe checkout
+-   Beautiful UI using TailwindCSS and ShadcnUI
+-   Full responsivity and mobile UI
+
+### Set up .env file
+
+```shell
+NEXT_PUBLIC_BASE_URL =
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Start the app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thanks for visiting my personal project ❤️

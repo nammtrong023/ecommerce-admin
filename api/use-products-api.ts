@@ -25,7 +25,7 @@ export const useProductsApi = () => {
         productId: string,
         data: NewProductFormValues,
     ) => {
-        await axios.put(baseUrl + '/' + productId, data);
+        await axios.patch(baseUrl + '/' + productId, data);
     };
 
     const destroyProduct = async (productId: string) => {
