@@ -2,11 +2,9 @@
 
 [Demo link](...)
 
-## Backend Source
+## Client Source
 
-The backend source code for this project, you can found in the [backend repository](https://github.com/nammtrong023/ecommerce-be.git).
-
-The store source code for this project, you can found in the [ecommrce-store repository](https://github.com/nammtrong023/ecommerce-store.git).
+The client source code for this project, you can found in the [ecommrce-store repository](https://github.com/nammtrong023/growth.git).
 
 ### Features
 
