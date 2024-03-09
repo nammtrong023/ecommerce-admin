@@ -4,7 +4,7 @@
 
 ## Client Source
 
-The client source code for this project, you can found in the [ecommrce-store repository](https://github.com/nammtrong023/growth.git).
+The client source code for this project, you can found in the [client repository](https://github.com/nammtrong023/growth.git).
 
 ### Features
 
